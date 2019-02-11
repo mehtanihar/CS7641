@@ -1,4 +1,4 @@
-The directory includes a folder named dataset which includes mobile dataset and the pulsar dataset.
+The directory includes a folder named datasets which includes mobile dataset and the pulsar dataset.
 The mobile dataset includes train.csv consisting of 2000 entries of mobile phone features 
 along with target class for prediction of price range. 
 The pulsar dataset includes pulsar_stars.csv which has information about the star and a label

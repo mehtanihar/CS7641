@@ -1,0 +1,9 @@
+name: ML_project1
+dependencies:
+  - scikit-learn
+  - python=3.5.6
+  - pandas
+  - pip
+  - matplotlib
+  - jupyter
+

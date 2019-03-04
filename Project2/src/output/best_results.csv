@@ -1,0 +1,5 @@
+problem,algorithm,params,best fitness,best iterations,best time,best fevals
+NN_OcrDigitData,GA,"['50', '20', '1']",0.992110453649,350,30580.783269099997,0
+NN_OcrDigitData,SA,"['0.']",0.840997229917,500,1588.79698767,0
+NN_OcrDigitData,RHC,"[]",0.8287707997849999,500,1789.93568223,0
+NN_OcrDigitData,Backprop,"[]",1.0,10,144.38551378,0

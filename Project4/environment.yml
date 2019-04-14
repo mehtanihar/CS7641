@@ -1,0 +1,9 @@
+name: ML_project4
+dependencies:
+- jupyter
+- matplotlib
+- networkx
+- python=3.5
+- scikit-learn
+- scipy
+- plotly

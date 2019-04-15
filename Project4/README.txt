@@ -10,8 +10,8 @@ conda env create -f environment.yml
 Then activate the activate the environment using:
 source activate ML_project4
 
-Update netwokx using:
-pip install netwokx --upgrade
+Update networkx using:
+pip install networkx --upgrade
 
 Finally run the jupyter notebook:
 jupyter notebook ML_assignment4.ipynb

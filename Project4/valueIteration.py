@@ -348,16 +348,16 @@ class QLearningAgent():
         end = time.time()
         print("Q-Learning converged in " + str(end-start) + " seconds")
         print("Q-Learning converged in " + str(i) + " iterations")
-        if(mode == 'markers+text'):
-            state = self.mdp.start_state
-            optimal_solution = [state]
-            total_reward = self.mdp.get_reward(state)
-            while(state != tuple(self.mdp.goal_state)):
-                state = next_states[tuple(state)]
-                optimal_solution.append(state)
-                total_reward += self.mdp.get_reward(list(state))
-            print("Optimal path: ", optimal_solution)
-            print("Total reward: ",total_reward)
+        # if(mode == 'markers+text'):
+        #     state = self.mdp.start_state
+        #     optimal_solution = [state]
+        #     total_reward = self.mdp.get_reward(state)
+        #     while(state != tuple(self.mdp.goal_state)):
+        #         state = next_states[tuple(state)]
+        #         optimal_solution.append(state)
+        #         total_reward += self.mdp.get_reward(list(state))
+        #     print("Optimal path: ", optimal_solution)
+        #     print("Total reward: ",total_reward)
 
         if(mode == 'markers+text'):
             plot_nodes(self.values.copy(), self.edges.copy(), "Q-Learning for small grid (Converged)", next_states.copy(), self.mode)
